@@ -29,13 +29,13 @@ Metadata:
   AWS::CloudFormation::Interface:
     ParameterLabels:
       GitHubUser:
-        default: "User"
+        default: "willardmr"
       GitHubRepo:
-        default: "Repo"
+        default: "ecs-demo-php-simple-app"
       GitHubBranch:
-        default: "Branch"
+        default: "master"
       GitHubToken:
-        default: "Personal Access Token"
+        default: "1813f24b236ed410017d08cf2ef132341f66cc3d"
     ParameterGroups:
       - Label:
           default: GitHub Configuration
