@@ -7,7 +7,6 @@ Description: >
 Parameters:
   GitHubUser:
     Type: String
-    Default: willardmr
     Description: Your username on GitHub.
 
   GitHubRepo:
@@ -36,7 +35,7 @@ Metadata:
       GitHubBranch:
         default: "master"
       GitHubToken:
-        default: "1813f24b236ed410017d08cf2ef132341f66cc3d"
+        default: ""
     ParameterGroups:
       - Label:
           default: GitHub Configuration
